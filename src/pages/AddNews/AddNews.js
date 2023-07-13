@@ -7,7 +7,6 @@ const AddNews = () => {
   const baseURL = "https://talkk7uatcms.talkk.in/api/v4/apiai";
 
   const [post, setPost] = React.useState({});
-
   const [image, setImage] = useState("");
   const [title, setTitle] = useState();
   const [description, setDescription] = useState();
